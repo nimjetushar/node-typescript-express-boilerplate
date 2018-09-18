@@ -8,9 +8,15 @@
     "prestart": "npm run -s build-ts",
     "build": "npm run build-ts",
     "dev": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run build-ts:watch\" \"npm run node-watch\"",
+    "debug": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run build-ts:watch\" \"npm run node-debug\"",
     "build-ts": "tsc",
     "build-ts:watch": "tsc -w",
-    "node-watch": "nodemon --inspect dist"
+    "node-watch": "nodemon dist",
+    "node-debug": "nodemon --inspect dist"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.5.0"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
