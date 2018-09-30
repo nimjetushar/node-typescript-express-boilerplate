@@ -1,6 +1,8 @@
 # node-typescript-express-boilerplate
 
-[![GitHub license](https://img.shields.io/github/license/nimjetushar/JenkinsLibrary.svg)](https://github.com/nimjetushar/JenkinsLibrary/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/nimjetushar/node-typescript-express-boilerplate.svg)](https://github.com/nimjetushar/node-typescript-express-boilerplate/blob/master/LICENSE)
+[![dependencies Status](https://david-dm.org/nimjetushar/node-typescript-express-boilerplate/status.svg)](https://david-dm.org/nimjetushar/node-typescript-express-boilerplate)
+[![devDependencies Status](https://david-dm.org/nimjetushar/node-typescript-express-boilerplate/dev-status.svg)](https://david-dm.org/nimjetushar/node-typescript-express-boilerplate?type=dev)
 
 ## start dev server
 npm run dev
@@ -10,6 +12,3 @@ npm run debug
 
 ## create build
 npm run build
-
-Refer to jenkinsfile under ./src for sample to integrate the library functions onto jenkinsfile.
-For more details refer to [Extending with Shared Libraries](https://jenkins.io/doc/book/pipeline/shared-libraries/)
