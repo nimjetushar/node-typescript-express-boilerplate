@@ -5,10 +5,10 @@
 [![devDependencies Status](https://david-dm.org/nimjetushar/node-typescript-express-boilerplate/dev-status.svg)](https://david-dm.org/nimjetushar/node-typescript-express-boilerplate?type=dev)
 
 ## start dev server
-npm run dev
+`  npm run dev  `
 
 ## start dev server in debug mode
-npm run debug
+`  npm run debug  `
 
 ## create build
-npm run build
+`  npm run build  `
