@@ -54,7 +54,7 @@
     "@types/mongoose": "5.2.13",
     "@types/morgan": "1.7.35",
     "concurrently": "3.5.1",
-    "eslint": "3.1.1",
+    "eslint": "5.6.1",
     "nodemon": "1.9.2",
     "typescript": "3.0.1"
   }
