@@ -4,6 +4,8 @@ import cors from "cors";
 import morgan from "morgan";
 import bodyParser from "body-parser";
 import { AddressInfo } from "net";
+import compression from "compression";
+import helmet from "helmet";
 
 import { config } from "./config";
 
@@ -28,6 +30,9 @@ app.use(
     limit: config.bodyLimit
   })
 );
+
+app.use(compression());
+app.use(helmet());
 
 // connect to db
 initializeDb(config).then(db => {
