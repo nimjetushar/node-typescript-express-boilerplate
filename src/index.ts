@@ -46,3 +46,4 @@ initializeDb(config).then(db => {
 });
 
 export default app;
+export const appServer = server;

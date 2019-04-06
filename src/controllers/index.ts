@@ -7,7 +7,7 @@ export default () => {
 
   // perhaps expose some API metadata at the root
   api.get("/", (req: Request, res: Response) => {
-    res.json(packageObj.version);
+    res.json({ version: packageObj.version });
   });
 
   return api;
