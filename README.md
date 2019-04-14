@@ -15,3 +15,6 @@
 
 ## create build
 `  npm run build  `
+
+## Test application
+`  npm test  `
