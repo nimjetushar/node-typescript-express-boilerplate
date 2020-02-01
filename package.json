@@ -34,7 +34,7 @@
     "@babel/core": "7.4.5",
     "@babel/plugin-proposal-class-properties": "7.4.0",
     "@babel/plugin-proposal-object-rest-spread": "7.4.4",
-    "@babel/preset-env": "7.4.5",
+    "@babel/preset-env": "7.8.4",
     "@babel/preset-typescript": "7.3.3",
     "@types/compression": "0.0.36",
     "@types/cors": "2.8.5",
